@@ -1,7 +1,12 @@
 
-
-
+import { useNavigate } from "react-router-dom"
+import Feedback from "./Feedback"
 export default function Contacts() {
+    const navigate = useNavigate()
+    const Feedback = () => {
+        navigate("/Feedback")
+    }
+
     return(
     
     <div className = "contactpage">
@@ -19,12 +24,12 @@ export default function Contacts() {
         <p className="textfortimetable"> TimeTable: </p>
     </div>
     
-
+        <Feedback/>
    
     
     <button class="btn">
     <div class="wrapper">
-        <p class="text">Feedback </p>
+        <p class="text" onClick={Feedback}>Feedback </p>
 
         <div class="flower flower1">
             <div class="petal one"></div>

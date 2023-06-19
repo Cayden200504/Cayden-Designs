@@ -9,6 +9,7 @@ import './css/Contacts.css';
 import './css/Helpinfo.css';
 import './css/Login.css'
 import './css/Register.css'
+import './css/Feedback.css'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Homes from './pages/Homes'
@@ -23,6 +24,7 @@ import Contacts from './pages/Contacts'
 import Helpinfo from './pages/Helpinfo'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Feedback from './pages/Feedback';
 
 import ScrollToTop from './ScrollToTop'
 
@@ -49,6 +51,7 @@ export default function App() {
           <Route path= "/helpinfo" element={<Helpinfo/>} />
           <Route path= "/login" element={<Login/>} />
           <Route path= "/register" element={<Register/>} />
+          <Route path="/Feedback" element= {<Feedback/>} />
           
         </Routes> 
         
