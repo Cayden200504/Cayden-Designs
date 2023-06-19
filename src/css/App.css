@@ -1,0 +1,104 @@
+
+.error404{
+  position: relative;
+  width:1920px;
+  height:850px;
+  top:80px;
+}
+
+.active{
+  color: rgb(255, 72, 255);
+
+}
+
+.homepage {
+  position: relative;
+  width:1920px;
+  height:1080px;
+  top:89px;
+}
+
+
+
+.frame{
+position: absolute;
+width: 1920px;
+height: 70px;
+top: 0px;
+
+}
+
+.Offers {
+position: absolute;
+left: 880px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 40px;
+line-height:70px;
+color: #000000;
+}
+
+.offerBox {
+position: absolute;
+width: 1218px;
+height: 160px;
+left: 339px;
+top: 70px;
+background:rgb(185, 180, 180) 
+
+
+}
+
+.offerBox2 {
+
+  position: absolute;
+  width: 631px;
+  height: 160px;
+  left: 609px;
+  top:0px;
+
+background: #BBC2FF;
+
+}
+
+.offerBox3 {
+  position: absolute;
+  width: 1241px;
+  height: 80px;
+  left: 339px;
+  top: 238px;
+  background: rgb(146, 137, 137);
+  font-size: 36px;
+  text-align: center;
+  }
+  
+  .offerBox4 {
+  position: absolute;
+  width: 165px;
+  height:80px;
+  left: 0px;
+  top:0px;
+  background: #BBC2FF;
+  font-family: 'Inter';
+  font-size: 36px;
+  color: #000000;
+  }
+  .Saletext1{
+    position: relative;
+    top:-20px;
+  }
+  .Saletext2{
+    position: relative;
+    top:-15px;
+  }
+
+.spendSave {
+  position: absolute;
+  left: 200px;
+  top: 27px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 36px;
+  color: #000000;
+}
+

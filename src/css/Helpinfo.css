@@ -1,0 +1,56 @@
+.frame6{
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    top: 0px;
+    }
+    
+    .Offer6 {
+        position: absolute;
+        left: 775px;
+        font-family: 'Inter';
+        font-size: 40px;
+        line-height:70px;
+        color: #000000;
+    }
+
+    .helpinfo{
+    position: relative;
+    width:1920px;
+    height:1080px;
+    top:89px;
+    }
+    
+    .infobox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 1244px;
+        height: 259px;
+        left: 340px;
+        top: 80px;
+        
+        border: 1px solid #000000;
+    }
+
+    .infobox2{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 1244px;
+        height: 337px;
+        left: 340px;
+        top: 350px;
+        
+        border: 1px solid #000000
+    }
+
+    .aboutcomp{
+        color: aqua;
+    }
+
+    .guide1{
+        color: aqua;
+       
+        
+    }

@@ -1,0 +1,24 @@
+.frame4{
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    top: 0px;
+    }
+    
+.Offers4 {
+    position: absolute;
+    left: 870px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    line-height:70px;
+    color: #000000;
+    }
+
+.upcomings{
+    position: relative;
+    width:1920px;
+    height:1080px;
+    top:89px;
+    }
+    

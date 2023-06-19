@@ -1,0 +1,23 @@
+.frame1{
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    top: 0px;
+    }
+    
+    .Offers1 {
+    position: absolute;
+    left: 925px;
+    font-family: 'Inter';
+    font-size: 40px;
+    line-height:70px;
+    color: #000000;
+    }
+
+    .men{
+    position: relative;
+    width:1920px;
+    height:1080px;
+    top:89px;
+    }
+    

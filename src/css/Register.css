@@ -1,0 +1,265 @@
+
+.frame7{
+        position: absolute;
+        width: 1920px;
+        height: 70px;
+        top: 0px;
+       
+        }
+        
+        .Offers7 {
+        position: absolute;
+        left: 900px;
+        top: 100px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 40px;
+        line-height:70px;
+        color: #000000;
+        }
+    
+        .register{
+        position: relative;
+        width:1920px;
+        height:1080px;
+        top:89px;
+        }
+        
+    .register-text{
+    position: absolute;
+    left: 851px;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+ 
+    .form4{   /*textbox first*/
+        border-radius:4px;
+        top: calc(55% - 40px/2 + 0.5px);
+        position: absolute;
+        left: 660px;
+        top: 250px;
+        font-weight: 400;
+        font-size: 20px;
+        }
+    
+    .form4 input:hover{
+        transition: 0.2s;
+        border-color: hsl(0, 88%, 55%);
+     }
+    
+        .form4 input{
+        border-radius: 10px;
+        height: 57px;
+        width:600px;
+        font-size: 20px;
+        } 
+    
+        .form4 span{
+          position: absolute;
+          top:15px ;
+          left:20px;
+          transition: top .5s;
+          padding: 0 5px;
+        }
+    
+        .form4 input:valid ~ span,
+        .form4 input:focus ~ span
+        {
+          top:-18px;
+          background-color:  #ffffff;
+        } /*    */
+     
+    
+       
+        .form5{    /* textbox second*/
+            position: absolute;
+            left: 660px;
+            top: 350px;
+            font-weight: 400;
+            font-size: 20px;
+        
+            }
+        
+            .form5 input{
+            border-radius: 10px;
+            height: 57px;
+            width:600px;
+            font-size: 20px;
+            } 
+
+            .form5 input:hover{
+                transition: 0.2s;
+                border-color: hsl(0, 88%, 55%);
+             }
+        
+            .form5 span{
+              position: absolute;
+              top:15px ;
+              left:20px;
+              transition: top .5s;
+              padding: 0 5px;
+            }
+        
+            .form5 input:valid ~ span,
+            .form5 input:focus ~ span
+            {
+              top:-18px;
+              background-color: #ffffff;
+            } /*  */
+         
+    
+            
+            .form6{ /* textbox third*/
+                position: absolute;
+                left: 660px;
+                top: 450px;
+                font-weight: 400;
+                font-size: 20px;
+            
+                }
+        
+                .form6 input{
+                border-radius: 10px;
+                height: 57px;
+                width:600px;
+                font-size: 20px;
+                } 
+
+                .form6 input:hover{
+                    transition: 0.2s;
+                    border-color: hsl(0, 88%, 55%);
+                 }
+            
+                .form6 span{
+                  position: absolute;
+                  top:15px ;
+                  left:20px;
+                  transition: top .5s;
+                  padding: 0 5px;
+                }
+            
+                .form6 input:valid ~ span,
+                .form6 input:focus ~ span
+                {
+                  top:-18px;
+                  background-color: #ffffff;
+                } /*  */
+
+
+
+                
+   
+.form7{  /* textbox forth*/
+position: absolute;
+left: 660px;
+top: 550px;
+font-weight: 400;
+font-size: 20px;
+}
+                
+                
+                
+                    .form7 input{
+                    border-radius: 10px;
+                    height: 57px;
+                    width:600px;
+                    font-size: 20px;
+                   
+                    } 
+                    .form7 input:hover{
+                        transition: 0.2s;
+                        border-color: hsl(0, 88%, 55%);
+                     }
+                
+                    .form7 span{
+                      position: absolute;
+                      top:15px ;
+                      left:20px;
+                      transition: top .5s;
+                      padding: 0 5px;
+                    }
+                
+                    .form7 input:valid ~ span,
+                    .form7 input:focus ~ span
+                    {
+                      top:-18px;
+                      background-color: #ffffff;
+                    } /*  */
+    
+    
+.registerbutton{ /* create account button */
+        position: absolute;
+        width: 610px;
+        height: 61px;
+        left: 660px;
+        top: 650px;
+        border-radius: 10px;
+        background: #242424;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+     
+    }
+    
+    .registerbutton:hover{
+        background-color: #4f4c4c;
+        transition: 0.3s;
+        border-color: hsl(0, 0%, 100%);
+    }
+    
+    .registertext{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    }
+
+
+
+
+
+.Already-have-an-account{
+        position: absolute;
+        left: 825px;
+        top: 700px;
+        
+        font-family: 'Inter';
+        
+        font-weight: 400;
+        font-size: 20px;
+        
+        display: flex;
+        
+        color: #000000;
+        
+        opacity: 0.8;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+         .login1{
+          position: absolute;
+          left:1045px;
+          top:720px;
+          font-family: 'Inter';
+        color: #000000;
+        
+        opacity: 0.8;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-weight: 400;
+        font-size: 20px;
+        
+        color: #6b6868;
+        
+        opacity: 0.8;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+         }
+
+         .login1:hover{
+            color: #000000;
+           }
