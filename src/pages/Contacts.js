@@ -16,12 +16,33 @@ export default function Contacts() {
      </div>
 
     <div className="addressbox">
-        <p className="textforaddress"> Address: </p>
+        <p className="textforaddress"> Address: 
+           
+           <p>123 Hounslow High Street, </p>
+           <p>Hounslow, London, </p>
+           <p>TW3 1QT, United Kingdom</p>        
+        </p>
     </div>
 
 
     <div className="timetablebox">
-        <p className="textfortimetable"> TimeTable: </p>
+        <p className="textfortimetable"> TimeTable 
+    <p> Monday: "9:00 AM - 6:00 PM" </p>
+
+    <p> Tuesday: "9:00 AM - 6:00 PM" </p>
+
+    <p>   Wednesday: "9:00 AM - 6:00 PM" </p> 
+
+    <p> Thursday: "9:00 AM - 6:00 PM"</p>
+
+    <p> Friday: "9:00 AM - 6:00 PM" </p>
+
+    <p> Saturday: "Closed"</p>
+
+    <p>Sunday: "Closed"</p> 
+        
+        
+         </p>
     </div>
     
      

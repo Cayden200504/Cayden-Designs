@@ -5,7 +5,7 @@ const products = [
       id: 1,
       name: 'Orange Fantasy',
       price: '',
-      image: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e149c7e166884b6d9398aef501019408_9366/Adicolor_70s_Large_Trefoil_T-Shirt_Red_IB3435_HM1.jpg',
+      image: 'https://overlays.co/cdn/shop/products/Untitled-1_0014_19_jpg_46c394b8-4ae9-4c60-ac13-ac0127afa676.jpg?v=1679995534&width=800',
     },
     {
       id: 2,
@@ -17,25 +17,25 @@ const products = [
       id: 3,
       name: 'Orange Fantasy',
       price: '',
-      image: 'https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c88f564777ad4ea2b908af1e00b802ff_9366/Essentials_Single_Jersey_Embroidered_Small_Logo_T-Shirt_Grey_IC9288_21_model.jpg',
+      image: 'https://cdn.shopify.com/s/files/1/0566/0839/1368/products/Untitled-1_0011_16.jpg_1.jpg?v=1679995473&width=300',
     },
     {
       id: 4,
       name: 'Green Leaf',
       price: '',
-      image: 'https://overlays.co/cdn/shop/products/DSC09225.jpg?v=1682003388&width=400',
+      image: 'https://overlays.co/cdn/shop/products/Untitled-1_0056_61_jpg.jpg?v=1668632547&width=800',
     },
     {
         id: 5,
         name: 'Orange Fantasy',
         price: '',
-        image: 'https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/52980bff1a494c459f0ffd8380664a32_9366/IM4587_21_model.jpg',
+        image: 'https://overlays.co/cdn/shop/products/Untitled-1_0094_99_jpg_1b2da2c0-c486-401c-95be-7f50a73a5bbc.jpg?v=1668605413&width=800',
       },
       {
         id: 6,
         name: 'White Melody',
         price: '',
-        image: 'https://overlays.co/cdn/shop/products/CopyofDSC01365.jpg?v=1680535061&width=400',
+        image: 'https://overlays.co/cdn/shop/products/Untitled-1_0079_84_jpg_30aa8775-887d-4bc4-bafe-f9e505ab92d7.jpg?v=1675945257&width=800',
       },
       {
         id: 7,
