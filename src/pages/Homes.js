@@ -5,25 +5,25 @@ const products = [
   {
     id: 1,
     name: 'Orange Fantasy',
-    price: 'This is the price of Product 1.',
+    price: '£20',
     image: '/images/tshirt1.png',
   },
   {
     id: 2,
     name: 'White Melody',
-    price: 'This is the price of Product 2.',
+    price: '£40',
     image: './images/tshirt2.png',
   },
   {
     id: 3,
     name: 'Orange Fantasy',
-    price: 'This is the price of Product 2.',
+    price: '£12',
     image: './images/tshirt3.png',
   },
   {
     id: 4,
     name: 'Green Leaf',
-    price: 'This is the price of Product 2.',
+    price: '£15',
     image: './images/tshirt4.png',
   },
   // Add more product objects as needed

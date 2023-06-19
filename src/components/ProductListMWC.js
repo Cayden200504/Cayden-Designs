@@ -11,6 +11,7 @@ const ProductListMWC = ({ products }) => {
           <p className="product-descriptionMWC">{product.price}</p>
         </div>
       ))}
+      
     </div>
   );
 };

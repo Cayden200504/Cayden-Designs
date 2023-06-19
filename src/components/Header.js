@@ -1,9 +1,16 @@
 
+import { useNavigate } from "react-router-dom"
 import {NavLink} from "react-router-dom"
 import * as BiIcons from "react-icons/bi"
 import * as BsIcons from "react-icons/bs"
 
+
 export default function Header() {
+  const navigate = useNavigate()
+  const Home = () => {
+      navigate("/")
+  }
+
     return(
       <> 
         <header className="header sticky">
@@ -37,7 +44,7 @@ export default function Header() {
             
           </div>
              
-          <img className="t-designs" src="./images/tdesign.png" alt=""/> 
+          <img className="t-designs" src="./images/tdesign.png" alt="" onClick={Home}/> 
         
             <div className = "SearchBar"> 
               <div class="form"> 

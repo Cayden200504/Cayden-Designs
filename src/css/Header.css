@@ -199,5 +199,26 @@
   height: 10rem;
   left: 49rem;
   top: -2.1875rem;
+  cursor: pointer;
 }
 
+.usericon ::before{
+  color: black;
+}
+.usericon :hover{
+  color: rgb(255, 45, 45);
+}
+
+.helpicon ::before{
+  color: black;
+}
+.helpicon :hover{
+  color: rgb(255, 45, 45);
+}
+
+.phoneicon ::before{
+  color: black;
+}
+.phoneicon :hover{
+  color: rgb(255, 45, 45);
+}
