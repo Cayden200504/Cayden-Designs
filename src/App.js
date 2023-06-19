@@ -10,11 +10,14 @@ import './css/Helpinfo.css';
 import './css/Login.css'
 import './css/Register.css'
 import './css/Feedback.css'
+import './css/OrderTNo.css'
+import  './css/Footer.css'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Homes from './pages/Homes'
 import Special from './pages/Special'
 import Header from './components/Header'
+import OrderTNo from './components/OrderTNo'
 import Mens from './pages/Mens'
 import Women from './pages/Women'
 import Childrens from './pages/Childrens'
@@ -25,11 +28,12 @@ import Helpinfo from './pages/Helpinfo'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Feedback from './pages/Feedback';
-
+import Footer from './components/Footer';
 import ScrollToTop from './ScrollToTop'
 
 export default function App() {
   return (
+    <> 
     <div>
       
       <BrowserRouter>
@@ -55,10 +59,18 @@ export default function App() {
           
         </Routes> 
         
-        <Header/>
+        <OrderTNo/>
 
+        <Header/>
+        <Footer/>
+
+      
       </BrowserRouter>
+      
     </div>
+
+     
+     </>
   );
 }
 

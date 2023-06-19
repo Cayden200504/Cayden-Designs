@@ -3,16 +3,15 @@ import React from 'react'
 export default function Feedback() {
   return (
     <div className="feedbackpage">
-
-
-
-
-
+      
+      <div className = "frame9">
+       <div className = "Offers9 "> Feedback </div> 
+     </div>
     
-<form className = "Nameinput"> 
+         <form className = "Nameinput"> 
               <div class="box1"> 
                <input class="inputbox1" type="text"  required="required"/> 
-               <span >Email</span>
+               <span >FullName</span>
               </div>
             </form>
 
@@ -22,9 +21,21 @@ export default function Feedback() {
                <span >Email</span>
               </div>
             </form>
+ 
+            <form className = "subinput"> 
+              <div class="box3"> 
+               <input class="inputbox3" type="text"  required="required"/> 
+               <span >Subject</span>
+              </div>
+            </form>
 
-        <input className="inputbox3" type="text"/>
-        <textarea className="inputbox4"/>
+            <form className = "feedbackinput"> 
+              <div class="box4"> 
+               <textarea class="inputbox4" id="message"  rows="4" placeholder='Feedback' required="required"/> 
+               
+              </div>
+            </form>
+
         <button className="feedbackB"> submit </button>
 
 

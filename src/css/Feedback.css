@@ -1,13 +1,40 @@
-.inputbox1{
+.box1{   /*textbox first*/
+    border-radius:4px;
+    top: calc(55% - 40px/2 + 0.5px);
     position: absolute;
-    width: 470px;
+    left: 660px;
+    top: 165px;
+    font-weight: 400;
+    font-size: 20px;
+    }
+
+.box1 input:hover{
+    transition: 0.2s;
+    border-color: hsl(0, 88%, 55%);
+ }
+
+    .box1 input{
+    border-radius: 10px;
     height: 57px;
-    left: 725px;
-    top: 200px;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+    width:600px;
+    font-size: 20px;
+    } 
+
+    .box1 span{
+      position: absolute;
+      top:15px ;
+      left:20px;
+      transition: top .5s;
+      padding: 0 5px;
+    }
+
+    .box1 input:valid ~ span,
+    .box1 input:focus ~ span
+    {
+      top:-18px;
+      background-color:  #ffffff;
+    } /*    */
+ 
 
 .box2{
     border-radius:4px;
@@ -45,27 +72,59 @@
           background-color:  #ffffff;
         }
 
-.inputbox3{
+
+
+
+
+.box3{
+            border-radius:4px;
+            top: calc(55% - 40px/2 + 0.5px);
+            position: absolute;
+            left: 660px;
+            top: 335px;
+            font-weight: 400;
+            font-size: 20px;
+            }
+            
+            .box3 input{
+            border-radius: 10px;
+            height: 57px;
+            width:600px;
+            font-size: 20px;
+            } 
+            .box3 input:hover{
+              transition: 0.2s;
+              border-color: hsl(0, 88%, 55%);
+            }
+            
+            .box3 span{
+            position: absolute;
+            top:15px ;
+            left:20px;
+            transition: top .5s;
+            padding: 0 5px;
+            }
+            
+            .box3 input:valid ~ span,
+            .box3 input:focus ~ span
+                {
+                  top:-18px;
+                  background-color:  #ffffff;
+                }
+
+.box4 textarea{
+    border-radius:10px;
     position: absolute;
-width: 470px;
-height: 57px;
-left: 725px;
-top: 400px;
+    left: 660px;
+    top: 420px;
+    font-weight: 400;
+    font-size: 23px;
+    width:602px;
+    height:12rem
+    }
+    
+   
 
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.inputbox4{
-    position: absolute;
-width: 470px;
-height: 173px;
-left: 725px;
-top: 500px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .feedbackpage{
     position: relative;
     width:1920px;
@@ -73,14 +132,39 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     top:89px;
     }
 
-.feedbackB{
-    position: absolute;
-    width: 477px;
-    height: 57px;
-    left: 725px;
-    top: 700px; 
-    color: white;
 
-background: #2F2F2F;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}    
+    .feedbackB{ /*submit button*/
+        position: absolute;
+        width: 610px;
+        height: 61px;
+        left: 660px;
+        top: 650px;
+        border-radius: 10px;
+        background: #242424;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+     
+    }
+    
+    .feedbackB:hover{
+        background-color: #4f4c4c;
+        transition: 0.3s;
+        border-color: hsl(0, 0%, 100%);
+    }
+
+
+ 
+        .Offers9 {
+        position: absolute;
+        left: 880px;
+        top: 70px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 40px;
+        line-height:70px;
+        color: #000000;
+        }
