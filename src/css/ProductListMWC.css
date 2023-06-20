@@ -7,7 +7,6 @@
     left: 338px;
     overflow-y: scroll;
     height: 700px;
-    
   }
  
   .product-cardMWC {
@@ -27,6 +26,7 @@
   }
   .product-imageMWC:hover{
     transform: scale(0.9);
+    box-shadow: -3px 3px 20px  rgba(88, 88, 88, 0.569);
     }
   
   

@@ -27,6 +27,7 @@
   }
   .product-imageUpings:hover{
     transform: scale(0.9);
+    box-shadow: -3px 3px 20px  rgba(88, 88, 88, 0.569);
     }
   
   
