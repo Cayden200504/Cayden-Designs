@@ -41,7 +41,7 @@ const products = [
        
         <div className = "offerBox">
          <p className = "spendSave"> Spend & Save </p>
-         <div className = " offerBox2"> 
+         <div className = " offerBox2">  <img className="offerimg" src="./images/Offerimg.png" alt="" />
          </div>
         </div>
         

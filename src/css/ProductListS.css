@@ -6,6 +6,8 @@
     position: relative;
     top:265px;
     left: 150px;
+    overflow-y: scroll;
+    height: 700px;
     
   }
  

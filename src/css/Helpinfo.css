@@ -29,8 +29,9 @@
         height: 259px;
         left: 340px;
         top: 80px;
-        
+        background-color: rgb(255, 251, 245);
         border: 1px solid #000000;
+        border-radius: 15px;
     }
 
     .infobox2{
@@ -41,16 +42,23 @@
         height: 337px;
         left: 340px;
         top: 350px;
-        
-        border: 1px solid #000000
+        background-color: rgb(255, 251, 245);
+        border: 1px solid #000000;
+        border-radius: 15px;
     }
 
     .aboutcomp{
-        color: aqua;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top:40px;
     }
 
     .guide1{
-        color: aqua;
-       
-        
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top:30px;
     }

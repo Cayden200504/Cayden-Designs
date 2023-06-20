@@ -61,6 +61,13 @@ background: #BBC2FF;
 
 }
 
+.offerimg{
+  position: absolute;
+  left: 90px;
+  width:440px;
+  height:155px;
+}
+
 .offerBox3 {
   position: absolute;
   width: 1241px;

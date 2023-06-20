@@ -1,10 +1,40 @@
 import React from "react";
-
 const Footer = () => {
-  return (
+ 
+  return (  
     <footer className="footer3">
-      {/* Footer content */}
+
+         <div className="terms-section">
+        <h3 class='AboutUs'>Terms and Conditions</h3>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Fraud Protection</li>
+          <li>Exchange and Refund Policy</li>
+        </ul>
+      </div>
+      <div className="about-section">
+        <h3 class='AboutUs'>About Us</h3>
+        <p class='CPC'>Creativity, Positive Change & Self Expression. </p>
+        <p class='CPC' > LearnMore</p>
+      </div>
+      
+        
+        <b className="subscribers">
+          NewsLetter
+        </b>  <p className="subscribers2">Sign up to stay updated about upcoming launches & offers! </p>
+
+
+      <div class="subscribe">
+        <p>SUBSCRIBE</p>
+        <input placeholder="Your e-mail" class="subscribe-input" name="email" type="email"/>
+        <br/>
+        <div class="submit-btn">SUBMIT</div>
+      </div>
+
+    
     </footer>
+    
+    
   );
 };
 
