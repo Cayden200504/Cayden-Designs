@@ -52,6 +52,7 @@ export default function Special() {
      </div>
      
      <div className="slot2">
+  
      </div>
 
      <div className = "productbox3">
