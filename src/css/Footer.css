@@ -30,14 +30,17 @@
   }
   
   .CPC {
-  
     color: #f0f0f0;
   }
-  
+  .learnmore{
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+  }
 
 
   
-  .subscribe {/* code from UIverse.io*/
+  .subscribe {
     position: relative;
     bottom:150px;
     left:46.5rem;
