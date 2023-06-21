@@ -122,23 +122,14 @@
   cursor: pointer;
 }
 
-.usericon ::before{
+.usericon::before,
+.helpicon::before,
+.phoneicon::before {
   color: black;
-}
-.usericon :hover{
-  color: rgb(255, 45, 45);
 }
 
-.helpicon ::before{
-  color: black;
-}
-.helpicon :hover{
-  color: rgb(255, 45, 45);
-}
-
-.phoneicon ::before{
-  color: black;
-}
-.phoneicon :hover{
+.usericon:hover::before,
+.helpicon:hover::before,
+.phoneicon:hover::before {
   color: rgb(255, 45, 45);
 }
